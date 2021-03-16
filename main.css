@@ -1,0 +1,17 @@
+.personal{
+    float: right;
+    padding-left: 50%;
+}
+.left{
+    border:solid darkblue;
+    padding: 5px;
+    margin: 5px;
+    width: 45%;
+}
+.right{
+    border:solid darkblue;
+    padding: 5px;
+    margin: 5px;
+    width: 45%;
+    float: right;
+}
