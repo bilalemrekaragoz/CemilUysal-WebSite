@@ -1,0 +1,8 @@
+.rounded_box{
+    background-color: rgb(61, 142, 196);
+    width: 200px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 30px;
+    background-image: linear-gradient(to, top, #04507b 75%, #00a2ff);
+}
