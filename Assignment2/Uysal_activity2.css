@@ -3,7 +3,7 @@
 /*styling for the table goes here*/
 body 
 {
-	width: 750px;
+	width: 710px;
 	margin: 0 auto;
 }
 
@@ -46,4 +46,13 @@ tbody tr:nth-child(even) td
 }
 tbody tr .top:first-child{
 	background-color: white;
+}
+.emp{
+	text-align: center;
+}
+.employee{
+	margin-top: 1%;
+	padding: 2% 0 2% 5%;
+	border: 5px;
+	border-style: solid;
 }
