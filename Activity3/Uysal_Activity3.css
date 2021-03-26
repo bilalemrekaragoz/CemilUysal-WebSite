@@ -126,28 +126,28 @@ body {
   height: 100%;
   opacity: 1;
 }
-#back2 #header{
+#back2 #header1{
   text-align: left;
   color: brown;
   font: 20pt bolder ;
   font-family: sans-serif;
   font-style: initial;
 }
-#back2 #main img{
+#back2 #main1 img{
   margin-left: 5%;
 }
-#back2 #wrapper{
+#back2 #wrapper1{
   color: rgb(20, 140, 209);
   margin-left: 1%;
 }
 #back2 ul{
   list-style-type: square;
 }
-#back2 #menu{
+#back2 #menu1{
   color: rgb(20, 140, 209);
   margin-left: 1% ;
 }
-#back2 #menu h2,h1{
+#back2 #menu1 h2,h1{
   color: red;
   font: 25pt italic;
 }
@@ -173,27 +173,27 @@ body {
   color: white;
   font-size: 10pt;
 }
-#back2 #music{
+#back2 #music1{
   margin-left: 1%;
   color: rgb(20, 140, 209);
 }
-#back2 #music h2,h1{
+#back2 #music1 h2,h1{
   color: red;
   font: 30pt 'Arial';
 }
-#back2 #location{
+#back2 #location1{
   margin-left: 1%;
   color: rgb(20, 140, 209);
 }
-#back2 #loaction h1,h2{
+#back2 #loaction1 h1,h2{
   color: red;
   font: 20pt icon;
 }
-#back2 #footer{
+#back2 #footer1{
   font-size: 7pt;
   color: coral;
 }
-#back2 #links{
+#back2 #links1{
   background-color: coral;
   color: white;
 }
