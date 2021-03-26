@@ -16,7 +16,7 @@ body {
   height: 100%;
   opacity: 1;
 }
-#header {
+#back1 #header {
   margin: -1% 20% 1.5% 40%;
   padding: 0.5% 0 0.5% 0;
   text-align: center;
@@ -24,18 +24,18 @@ body {
   color: white;
   background-color: turquoise;
 }
-#main {
+#back1 #main {
   margin: -1% 20% 5% 40%;
   background-color: white;
   height: min-content;
 }
-#main img{
+#back1 #main img{
   border:solid black;
   padding: 5%;
   margin: 0.5% 30% 0.5% 30%;
   
 }
-#wrapper{
+#back1 #wrapper{
  border: solid black;
  margin: 0 5% 0 5%;
  background-color: rgb(173, 94, 38);
@@ -43,19 +43,19 @@ body {
  font-family: Georgia;
  color: white;
 }
-#menu {
+#back1 #menu {
   border: solid black;
   margin: 0.5% 5% 0 5%;
   background-color: gray;
 }
-#menu h2,h1 {
+#back1 #menu h2,h1 {
   text-align: center;
   color: white;
   font: italic 15pt ;
   font-family: 'Trebuchet MS';
   margin:1% 0 1% 0;
  }
-#music{
+#back1 #music{
   border: solid black;
   margin: 0.5% 5% 0 5%;
   background-color: gray;
@@ -63,11 +63,11 @@ body {
   text-align: center;
   font-size: 7pt;
 }
-#music h2,h1{
+#back1 #music h2,h1{
   font: 18pt 'Calibri';
   margin:1% 0 1% 0;
 }
-#location{
+#back1 #location{
   border: solid black;
   margin: 0.5% 5% 1% 5%;
   background-color: gray;
@@ -75,35 +75,35 @@ body {
   text-align: center;
   font-size: 6pt;
 }
-#location h2,h1{
+#back1 #location h2,h1{
   font: 17pt  oblique;
   font-family: 'Arial Narrow';
   margin:1% 0 1% 0;
 }
-#footer {
+#back1 #footer {
   background-color: rgb(77, 74, 74);
   text-align: center;
   color: white;
   font-size: 6pt;
   padding: 1% 0 1% 0;
 }
-#links{
+#back1 #links{
   font-size: 8pt;
 }
 
 
-th{
+#back1 th{
   background-color: turquoise;
   color: white;
   border: solid black 2px;
   padding: 1% 0 1% 0;
   font-size: 12pt;
 }
-tbody tr:nth-child(even){
+#back1 tbody tr:nth-child(even){
   background-color: cornflowerblue;
 
 }
-td 
+#back1 td 
 {
 	border: 2px solid black;
 	padding: .2em 1em .2em .5em;
@@ -112,7 +112,90 @@ td
   color: white;
   font-size: 6pt;
 }
-table{
+#back1 table{
   margin: 0 5% 1% 5%;
 }
+#back1 ul{
+  list-style-type: armenian;
+}
+#back2{
+  background-image: url("image.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  height: 100%;
+  opacity: 1;
+}
+#back2 #header{
+  text-align: left;
+  color: brown;
+  font: 20pt bolder ;
+  font-family: sans-serif;
+  font-style: initial;
+}
+#back2 #main img{
+  margin-left: 5%;
+}
+#back2 #wrapper{
+  color: rgb(20, 140, 209);
+  margin-left: 1%;
+}
+#back2 ul{
+  list-style-type: square;
+}
+#back2 #menu{
+  color: rgb(20, 140, 209);
+  margin-left: 1% ;
+}
+#back2 #menu h2,h1{
+  color: red;
+  font: 25pt italic;
+}
+#back2 th{
+  background-color: red;
+  color: white;
+  border: solid black 2px;
+  padding: 1% 0 1% 0;
+  font-size: 15pt;
+}
+#back2 tbody tr:nth-child(even){
+  background-color: rgb(20, 140, 209);
+}
+#back2 tbody tr:nth-child(odd) td{
+  color: rgb(20, 140, 209);
+}
+#back2 td 
+{
+	border: 2px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+  color: white;
+  font-size: 10pt;
+}
+#back2 #music{
+  margin-left: 1%;
+  color: rgb(20, 140, 209);
+}
+#back2 #music h2,h1{
+  color: red;
+  font: 30pt 'Arial';
+}
+#back2 #location{
+  margin-left: 1%;
+  color: rgb(20, 140, 209);
+}
+#back2 #loaction h1,h2{
+  color: red;
+  font: 20pt icon;
+}
+#back2 #footer{
+  font-size: 7pt;
+  color: coral;
+}
+#back2 #links{
+  background-color: coral;
+  color: white;
+}
+
 
