@@ -1,0 +1,118 @@
+/*
+Lab 3 CSS styles
+CSS styles for Ultimate frisbee page
+*/
+
+body {
+  color: black;
+  font: 12pt "Tahoma", "Arial", sans-serif;
+
+}
+#back1{
+  background-image: url("3.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  height: 100%;
+  opacity: 2;
+}
+#header {
+  margin: -1% 20% 1.5% 40%;
+  padding: 0.5% 0 0.5% 0;
+  text-align: center;
+  font: 'Lucida Sans';
+  color: white;
+  background-color: turquoise;
+}
+#main {
+  margin: -1% 20% 5% 40%;
+  background-color: white;
+  height: min-content;
+}
+#main img{
+  border:solid black;
+  padding: 5%;
+  margin: 0.5% 30% 0.5% 30%;
+  
+}
+#wrapper{
+ border: solid black;
+ margin: 0 5% 0 5%;
+ background-color: rgb(173, 94, 38);
+ font-size: 7pt;
+ font-family: Georgia;
+ color: white;
+}
+#menu {
+  border: solid black;
+  margin: 0.5% 5% 0 5%;
+  background-color: gray;
+}
+#menu h2,h1 {
+  text-align: center;
+  color: white;
+  font: italic 15pt ;
+  font-family: 'Trebuchet MS';
+  margin:1% 0 1% 0;
+ }
+#music{
+  border: solid black;
+  margin: 0.5% 5% 0 5%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: 7pt;
+}
+#music h2,h1{
+  font: 18pt 'Calibri';
+  margin:1% 0 1% 0;
+}
+#location{
+  border: solid black;
+  margin: 0.5% 5% 1% 5%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: 6pt;
+}
+#location h2,h1{
+  font: 17pt  oblique;
+  font-family: 'Arial Narrow';
+  margin:1% 0 1% 0;
+}
+#footer {
+  background-color: rgb(77, 74, 74);
+  text-align: center;
+  color: white;
+  font-size: 6pt;
+  padding: 1% 0 1% 0;
+}
+#links{
+  font-size: 8pt;
+}
+
+
+th{
+  background-color: turquoise;
+  color: white;
+  border: solid black 2px;
+  padding: 1% 0 1% 0;
+  font-size: 12pt;
+}
+tbody tr:nth-child(even){
+  background-color: cornflowerblue;
+
+}
+td 
+{
+	border: 2px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+  color: white;
+  font-size: 6pt;
+}
+table{
+  margin: 0 5% 1% 5%;
+}
+

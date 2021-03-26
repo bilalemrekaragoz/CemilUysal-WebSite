@@ -1,1 +1,1 @@
-Web Site Url: https://cemiluysal.herokuapp.com/Uysal_activity2.html
+Web Site Url: https://cemiluysal.herokuapp.com/Assignment2/Uysal_activity2.html
