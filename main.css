@@ -1,7 +1,10 @@
 .container{
     width:1100px;
     margin:0 3% 0 3%;
-    background-image: url("images.jpeg");
+    
+}
+body{
+    background-image: url("background.jpeg");
     background-repeat: no-repeat, repeat;
     background-color: #cccccc;
     background-size: cover;
@@ -17,34 +20,45 @@ img{
 .personal{
     float: right;
     margin-right:90px;
+    color: white;
 }
 .education{
-    border:solid darkblue;
+    border:solid black;
     padding: 0.25%;
     margin: 1%;
     width: 500px;
     float: left;
+    color: white;
   
 }
 .work{
-    border:solid darkblue;
+    border:solid black;
     padding: 0.25%;
     margin: 1%;
     width: 500px;
     float:left;
+    color: white;
 }
 .skills{
-    border:solid darkblue;
+    border:solid black;
     padding: 0.25%;
     margin: 1%;
     width: 500px;
-    float:left;
-   
+    color: white;
 }
 h2{
     padding: -1% 0 0.5% 0.5%;
     margin: 0 0 0.5% 0.5%;
 }
-
+.deneme{
+    font-size: 25px;
+    margin: 5% 1% 10% 1%;
+    width: 100%;
+    text-align:center;
+}
+a{
+    color:white;
+    margin: 0px 1% 0px 1%;
+}
 
 
