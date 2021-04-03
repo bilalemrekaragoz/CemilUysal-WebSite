@@ -1,26 +1,29 @@
 .advertisement
 {
 	width:100px;
-	height:150px; 
+	height:125px; 
 	border-color:black;
 	border-width:2px; 
 	background-color:gray; 
-	color:white;
+	color:black;
 	top: 5px;
-	left: 5px;
+	left: 15px;
 	position: absolute;
 }
+
 .image img{
 	width: 250px;
 	float: left;
 }
-
 .header{
 	width:70%;
 	margin: 0px auto;
 }
 .header .logo{
 	float: left;
+}
+.header .title{
+	padding-top: 1%;
 }
 .content{
 	clear: left;
