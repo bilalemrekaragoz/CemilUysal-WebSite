@@ -1,18 +1,20 @@
 .advertisement
 {
 	width:100px;
-	height:125px; 
+	height:140px; 
 	border-color:black;
 	border-width:2px; 
 	background-color:gray; 
 	color:black;
 	top: 5px;
 	left: 15px;
-	position: absolute;
+	position: fixed;
 }
 
 .image img{
 	width: 250px;
+	padding-left: 10px;
+	margin-right: 10px;
 	float: left;
 }
 .header{
@@ -21,6 +23,7 @@
 }
 .header .logo{
 	float: left;
+	margin-right: 5%;
 }
 .header .title{
 	padding-top: 1%;
@@ -28,8 +31,8 @@
 .content{
 	clear: left;
 	width:70%;
-	margin: 0px auto;
-	font-size: 23px;
+	margin: 10% auto 0px auto;
+	font-size: 22px;
 }
 .head{
 	margin-top: 10%;
