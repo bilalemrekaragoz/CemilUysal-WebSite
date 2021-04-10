@@ -1,0 +1,39 @@
+*{
+    display:block;
+}
+.registration{
+    width: 1000px;
+    margin:auto;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0px 0px 10px 0px;
+}
+label{
+    width: 100px;
+    float: left;
+}
+input{
+    width: 150px;
+}
+.small-input input{
+    width: fit-content;
+    margin-right: 5px;
+    float: left;
+}
+.small-input label{
+    width: 50px;
+}
+.small-input .title{
+    width: 100px;
+}
+.clear{
+    clear: both;
+}
+#sub_but{
+    width: 80px;
+    background-color: grey;
+    margin-left: 100px;
+}
