@@ -2,7 +2,7 @@
     $personals = array("name"=>"Not Provided","username"=>"Not Provided","password"=>"Not Provided"
                         ,"address"=>"Not Provided","country"=>"Not Provided","Zip"=>"Not Provided"
                         ,"sex"=>"Not Provided","language"=>"Not Provided","about"=>"Not Provided");
-
+    echo "<h2> Prewiev <h2>";
     if(isset($_GET["sub_but"])){
         foreach($personals as $val => $key){
             if($_GET[$val] != null){
