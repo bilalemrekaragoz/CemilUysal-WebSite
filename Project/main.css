@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type:none;
+}
+
+body{
+    
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(13, 63, 155);
+    background-size: cover;
+    height:100%;
+    opacity: 1;
+}
+
+
+header, nav, article, section, footer, aside{
+    display: block;
+}
+/* Centering Website*/
+.container{
+    background-image: url("images/main-back.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    background-size: cover;
+    height:100%;
+    opacity: 1;
+    width: 1100px;
+    margin: 0px auto;
+}
+
+.clear{
+    clear:both;
+}
+
+.logo{
+    height: 100px;
+    width: 232px;
+    float:left;
+
+}
+.top_nav{
+    float:left;
+    width:768px;
+}
+.sign{
+    float: left;
+}
+.sign button{
+    background-image: url("images/login1.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(34, 34, 228);
+    background-size: 30px;
+    background-position-x: left;
+    opacity: 1;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+.sign button a{
+    margin-left: 30px;
+    color: white;
+}
+.top_nav ul li{
+    /* a little bit space
+    display:inline-block;
+    */
+    float:left;
+    padding: 35px 20px;
+    font-size: 27px; 
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:purple;
+    text-decoration: none;
+}
+
+/* Float aside and main section*/
+.left_side{
+    padding-top: 125px;
+    color:rgb(13, 63, 155);
+    margin-top: 25px;
+    float:left;
+    width:400px;
+}
+.left_side article{
+    margin-right: 10px;
+    padding: 10px;
+}
+.right_side{
+    float:left;
+    padding-top: 125px;
+    margin-left: 350px; 
+    color:rgb(13, 63, 155);
+    margin-top: 25px;
+    width:300px;
+}
+h3,h2{
+    margin-bottom: 15px;
+}
+
+.photo{
+    width: max-content;
+    height: 200px;
+}
+.photo img{
+    margin:20px 20px 0 0;
+    float: left;
+}
+/* Make footer clear floated elements */
+.page_footer{
+    margin-top: 150px;
+    clear:both;
+    text-align: right;
+}
