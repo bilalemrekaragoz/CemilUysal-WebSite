@@ -13,16 +13,41 @@
     opacity: 1;
 }
 
-
 header, nav, article, section, footer, aside{
     display: block;
 }
 /* Centering Website*/
 .container{
-
     width: 1100px;
     margin: 0px auto;
 }
+.clear{
+    clear:both;
+}
+/* Make footer clear floated elements */
+.page_footer{
+    margin-top: 150px;
+    clear:both;
+    text-align: right;
+}
+.logo{
+    height: 100px;
+    width: 232px;
+    float:left;
+}
+.top_nav{
+    float:left;
+    width:768px;
+}
+.top_nav ul li{
+    /* a little bit space
+    display:inline-block;
+    */
+    float:left;
+    padding: 35px 20px;
+    font-size: 27px; 
+}
+
 .main-background{
     background-image: url("images/main-back.jpg");
     background-repeat: no-repeat, repeat;
@@ -30,21 +55,6 @@ header, nav, article, section, footer, aside{
     background-size: cover;
     height:100%;
     opacity: 1;
-}
-
-.clear{
-    clear:both;
-}
-
-.logo{
-    height: 100px;
-    width: 232px;
-    float:left;
-
-}
-.top_nav{
-    float:left;
-    width:768px;
 }
 .sign{
     float: left;
@@ -64,14 +74,7 @@ header, nav, article, section, footer, aside{
     margin-left: 30px;
     color: white;
 }
-.top_nav ul li{
-    /* a little bit space
-    display:inline-block;
-    */
-    float:left;
-    padding: 35px 20px;
-    font-size: 27px; 
-}
+
 a{
     color: blue;
     text-decoration: none;
@@ -85,18 +88,18 @@ a:visited{
 }
 
 /* Float aside and main section*/
-.left_side{
+.main-left_side{
     padding-top: 125px;
     color:rgb(13, 63, 155);
     margin-top: 25px;
     float:left;
     width:400px;
 }
-.left_side article{
+.main-left_side article{
     margin-right: 10px;
     padding: 10px;
 }
-.right_side{
+.main-right_side{
     float:left;
     padding-top: 125px;
     margin-left: 350px; 
@@ -116,9 +119,4 @@ h3,h2{
     margin:20px 20px 0 0;
     float: left;
 }
-/* Make footer clear floated elements */
-.page_footer{
-    margin-top: 150px;
-    clear:both;
-    text-align: right;
-}
+

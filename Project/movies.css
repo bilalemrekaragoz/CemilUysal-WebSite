@@ -1,0 +1,20 @@
+.movies-left_side{
+    float: left;
+    width: 200px;
+    margin: 100px 0px;
+}
+.movies-left_side .type_nav{
+    font-size: 20px;
+}
+.movies-left_side .type_nav li{
+    width: 200px;
+    border: 2px solid black;
+}
+.movies-background{
+    height: 1000px;
+}
+.movies-right_side{
+    margin: 50px;
+    width: 700px;
+    float: left;
+}
