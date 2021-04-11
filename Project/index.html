@@ -5,65 +5,69 @@
         <title> Books, Movies, Series home page</title>
         <link rel="stylesheet" href="main.css"/>
     </head>
-    <body>
+    <!-- Creating home page-->
+    <body class="main">
         <div class="container"> 
-        
-            <header>
-                <img src="images/logo-bms.png" alt="logo area" class="logo"/>
-                <nav class= "top_nav">
-                    <ul>
-                        <li><a href="">Timeline</a></li>
-                        <li><a href="">Movies</a></li>
-                        <li><a href="tutorial3.html">Series</a></li>
-                        <li><a href="https://cemiluysal.herokuapp.com">Books</a></li>
-                        <li><a href="https://cemiluysal.herokuapp.com">Profile</a></li>
-                        <li><a href="https://cemiluysal.herokuapp.com">Search</a></li>
-                    </ul>
-                </nav>
-                <div class="sign">
-                    <button><a>Log In</a></button> <br/>
-                    <button><a>Sign Up</a></button>
-                </div>
+            <!-- Creating div for different background style -->
+            <div class="main-background">
+                <!-- Using header tag for image and navigation bar-->
+                <header>
+                    <a href="index.html"><img src="images/logo-bms.png" alt="logo area" class="logo"  /></a>
+                    <nav class= "top_nav">
+                        <ul>
+                            <li><a href="timeline.html">Timeline</a></li>
+                            <li><a href="">Movies</a></li>
+                            <li><a href="tutorial3.html">Series</a></li>
+                            <li><a href="https://cemiluysal.herokuapp.com">Books</a></li>
+                            <li><a href="https://cemiluysal.herokuapp.com">Profile</a></li>
+                            <li><a href="https://cemiluysal.herokuapp.com">Search</a></li>
+                        </ul>
+                    </nav>
+                    <div class="sign">
+                        <button><a>Log In</a></button> <br/>
+                        <button><a>Sign Up</a></button>
+                    </div>
+                    <div class="clear"> </div>
+                </header>
+                <!-- creating section for text at left side-->
+                <section class="left_side"> 
+                    <article>
+                        <header>
+                            <h2> Discover millions of TV series, movies and books! </h2>
+                            <h3> Share your comments about the TV series, movie and book you want!</h3>
+                        </header>
+                        <p> 
+                            Follow the profiles of the people whose comments you like and follow their views.
+    
+                        </p>
+                        <br/>
+                        <p> 
+                            Choose whatever you want from millions of TV shows, movies, and books and
+                            leave comments for people to read or watch.
+                        </p>
+                    </article>
+                </section>
+                <!-- creating section for text at right side-->
+                <section class="right_side">
+                    <article>
+                        <header>
+                            <h2> Make lists of movies, TV shows you've watched and books you've read. </h2>
+                            <h3> Add comments to movies, TV shows and books on your list.</h3>
+                        </header>
+                        <p> 
+                            You cannot comment, follow people and make lists without being a member. 
+                            But you can see most popular comments.
+                        </p>
+                    </article>
+                </section>
+                <div class="clear"></div>
                 
-                
-                <div class="clear"> </div>
-            </header>
-
-            <section class="left_side"> 
-                <article>
-                    <header>
-                        <h2> Discover millions of TV series, movies and books! </h2>
-                        <h3> Share your comments about the TV series, movie and book you want!</h3>
-                    </header>
-                    <p> 
-                        Follow the profiles of the people whose comments you like and follow their views.
-
-                    </p>
-                    <br/>
-                    <p> 
-                        Choose whatever you want from millions of TV shows, movies, and books and
-                        leave comments for people to read or watch.
-                    </p>
-                </article>
-            </section>
-            <section class="right_side">
-                <article>
-                    <header>
-                        <h2> Make lists of movies, TV shows you've watched and books you've read. </h2>
-                        <h3> Add comments to movies, TV shows and books on your list.</h3>
-                    </header>
-                    <p> 
-                        You cannot comment, follow people and make lists without being a member. 
-                        But you can see most popular comments.
-                    </p>
-                </article>
-            </section>
-            <div class="clear"></div>
+    
+                <footer class="page_footer">
+                    &copy; - written by Cemil Uysal
+                </footer>
+            </div>
             
-
-            <footer class="page_footer">
-                &copy; - written by Cemil Uysal
-            </footer>
         </div>
        
     </body>
