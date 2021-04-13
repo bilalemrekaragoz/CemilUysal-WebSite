@@ -1,0 +1,40 @@
+.series-left_side{
+    margin-top: 50px;
+    float: left;
+}
+.series-left_side .type_nav{
+    width: 300px;
+    height: 250px;
+
+    font-size: 25px;
+    text-align: center;
+}
+.series-left_side .type_nav li{
+    height: 50px;
+    width: 300px;
+    border: gray solid 1px;
+    border-radius: 5px;
+}
+.series-left_side .type_nav li:hover{
+    background-color: gray;
+}
+.series-right_side{
+    margin: 50px 50px;
+    float: left;
+}
+.series-right_side .type_nav{
+    width: 300px;
+    height: 250px;
+
+    font-size: 25px;
+    text-align: center;
+}
+.series-right_side .type_nav li{
+    height: 50px;
+    width: 300px;
+    border: gray solid 1px;
+    border-radius: 5px;
+}
+.series-right_side .type_nav li:hover{
+    background-color: gray;
+}
