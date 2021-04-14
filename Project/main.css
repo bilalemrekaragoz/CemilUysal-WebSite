@@ -30,6 +30,7 @@ header, nav, article, section, footer, aside{
     margin-top: 150px;
     clear:both;
     text-align: right;
+    color: gray;
 }
 .logo{
     height: 100px;
@@ -47,13 +48,18 @@ header, nav, article, section, footer, aside{
     height:100%;
     opacity: 1;
 }
-.container .navbar{
+.container .navbar-expand-lg{
     background-color:rgba(28, 92, 15, 0.993);
-    border-radius: 25 px;
+
+    border-radius: 50px;
 }
 
+.container .navbar .d-flex{
+    height: 30px;
+    margin: 5px 100px;
+}
 .container .main-background .navbar .sign{
-    margin-left: 450px;
+    margin-left: 100px;
 }
 a{
     color: blue;
