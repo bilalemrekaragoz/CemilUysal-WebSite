@@ -1,6 +1,6 @@
 <?php
     $personals = array("name"=>"Not Provided","username"=>"Not Provided","password"=>"Not Provided"
-                        ,"address"=>"Not Provided","country"=>"Not Provided","Zip"=>"Not Provided"
+                        ,"address"=>"Not Provided","Country"=>"Not Provided","Zip"=>"Not Provided"
                         ,"sex"=>"Not Provided","language"=>"Not Provided","about"=>"Not Provided");
     echo "<h1> Prewiev </h1>";
     if(isset($_GET["sub_but"])){
