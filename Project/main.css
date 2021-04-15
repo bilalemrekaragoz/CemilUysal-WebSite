@@ -39,8 +39,7 @@ header, nav, article, section, footer, aside{
 }
 .main-background{
     width: 100%;
-    
-    border-radius: 25px;
+    border-radius: 30px;
     background-image: url("images/main-back1.jpg");
     background-repeat: no-repeat, repeat;
     background-color: #cccccc;
@@ -60,6 +59,10 @@ header, nav, article, section, footer, aside{
 }
 .container .main-background .navbar .sign{
     margin-left: 100px;
+}
+.container  .navbar .profile{
+    margin-left: 150px;
+
 }
 a{
     color: blue;
