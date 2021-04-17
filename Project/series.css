@@ -1,7 +1,9 @@
+/*Making left side ul*/
 .series-left_side{
     margin-top: 50px;
     float: left;
 }
+/*Changing font size of the elements*/
 .series-left_side .type_nav{
     width: 300px;
     height: 250px;
@@ -9,19 +11,23 @@
     font-size: 25px;
     text-align: center;
 }
+/*Making border all of list items*/
 .series-left_side .type_nav li{
     height: 50px;
     width: 300px;
     border: gray solid 1px;
     border-radius: 5px;
 }
+/*Adding hover feature all of list items*/
 .series-left_side .type_nav li:hover{
     background-color: gray;
 }
+/*Making right side ul*/
 .series-right_side{
     margin: 50px 50px;
     float: left;
 }
+/*Changing font size of the elements*/
 .series-right_side .type_nav{
     width: 300px;
     height: 250px;
@@ -29,12 +35,14 @@
     font-size: 25px;
     text-align: center;
 }
+/*Making border all of list items*/
 .series-right_side .type_nav li{
     height: 50px;
     width: 300px;
     border: gray solid 1px;
     border-radius: 5px;
 }
+/*Adding hover feature all of list items*/
 .series-right_side .type_nav li:hover{
     background-color: gray;
 }

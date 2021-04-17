@@ -1,18 +1,23 @@
+/*Making left side ul*/
 .movies-left_side{
     float: left;
     width: 200px;
     margin: 100px 0px;
 }
+/*Changing font size of the elements*/
 .movies-left_side .type_nav{
     font-size: 20px;
 }
+/*Making border all of list items*/
 .movies-left_side .type_nav li{
     width: 200px;
     border: 2px solid black;
 }
+/* Changing height*/
 .movies-background{
     height: 1000px;
 }
+/* This part (Right side of the page) contain 4 slider bar.*/
 .movies-right_side{
     margin: 50px;
     width: 700px;

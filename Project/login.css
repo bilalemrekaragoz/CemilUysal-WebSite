@@ -29,6 +29,7 @@ input{
 .clear{
     clear: both;
 }
+/* fixing background submt button*/
 #sub_but{
     width: 80px;
     background-color: grey;

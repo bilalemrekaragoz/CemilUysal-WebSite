@@ -1,7 +1,9 @@
+/* fixing Background height  and border radius*/
 .books-background{
     height: 700px;
     border-radius: 30px;
 }
+/* making books-left_side*/
 .books-left_side{
     float: left;
 }
