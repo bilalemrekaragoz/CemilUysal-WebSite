@@ -1,0 +1,15 @@
+.container{
+    width: 1000px;
+    margin: 10px auto;
+}
+.container .left-side{
+    width: 50px;
+    float: left;
+
+}
+.clear{
+    clear: both;
+}
+.convert{
+    margin-left: 375px;
+}
