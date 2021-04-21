@@ -1,15 +1,21 @@
 .container{
     width: 1000px;
-    margin: 10px auto;
+    margin: 100px auto;
 }
-.container .left-side{
-    width: 50px;
+.left_side{
+    margin: 5% 3% 1% 5% ;
     float: left;
-
+}
+.right_side{
+    float: left;
+    margin: 5% 3% 1% 5% ;
 }
 .clear{
     clear: both;
 }
 .convert{
-    margin-left: 375px;
+    margin-left: 46%;
+}
+.left{
+    margin-left: 20px;
 }

@@ -1,26 +1,21 @@
 <?php 
+    $to = 0;
+    $from = 0;
     $changes = array("usdcad" => 1.25, "usdeur"=> 0.83 , "eurcad" => 1.50,
                      "cadusd"=>0.80, "eurusd" => 1.20, "cadeur" =>0.67);
-    $symbols = array("usd" => "US Dollar","cad" => "Canadian Dollar", "eur"=> "Euro" );
+
     if(isset($_GET["convert"])){
         $symbol1 = $_GET["currency1"];
         $symbol2 = $_GET["currency2"];
-        $currency1;
-        $currency2;
         $from = $_GET["from"];
+        // converting money type
         foreach($changes as $code => $value){
             if($code == "$symbol1$symbol2"){
                 $to = $from * $value;
             }
+            
         }
-        foreach($symbols as $key=> $val){
-            if($key==$symbol1){
-                $currency1 = $val;
-            }
-            if($key==$symbol2){
-                $currency2 = $val;
-            }
-        }
+       
     }
 ?>
 <!DOCTYPE html>
@@ -30,45 +25,83 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <form action="Activity6.php" method="GET">
-        <div class="container">
-                    <p >
-                        <label class="left-side" for="from">From:</label>
-                        <input type="text" name="from" maxlength=30 size="25" id="from"
-                            value="<?php
-                                        echo $from; 
-                                    ?>"/> 
-
-                        <label for="currency1" required>Currency:</label>
-                        <select name="currency1">
-                            <option  value="<?php echo $symbol1?>" selected><?php echo $currency1;
-                                                             ?></option>
-                            <option value="usd">US Dollar</option>
-                            <option value="cad">Canadian Dollar</option>
-                            <option value="eur">Euro</option>
-                        </select>
-                    </p>
-                    <div class="clear" ></div>
-                    <p>
-                        <label class="left-side" for="to">To:</label>
-                        <input type="text" name="to" maxlength=30 size="25" id="to" 
-                        value="<?php 
-                                    echo $to;
+    <div class="container">
+        <form action="Activity6.php" method="GET">
+            <div class="left_side">
+                <label class="left_label" for="from">From:</label>
+                    <input class="money" type="number" name="from" maxlength=30 size="25" id="from"
+                        value="<?php
+                                    echo $from; 
                                 ?>"/> 
+                    <br/>
+                    <label class="left_label" for="to">To:</label>
+                    <output class="money left" name="to" maxlength=30 size="25" > 
+                        <?php
+                            echo $to; 
+                        ?>
+                    </output>
+            </div>
 
-                        <label for="currency2">Currency:</label>
-                        <select name="currency2">
-                            <option  value="<?php echo $symbol2?>" selected><?php echo $currency2;
-                                                             ?></option>
-                            <option value="usd">US Dollar</option>
-                            <option value="cad">Canadian Dollar</option>
-                            <option value="eur">Euro</option>
+            <div class="right_side">
+                <label for="currency1" required>Currency:</label>
+                    <select name="currency1">
+                        <!-- Making selected item choosen one-->
+                        <option  value="currency" disaabled >Select a Currency</option>
+                            <option value="usd" <?php
+                                                if(isset($_GET["convert"])){
+                                                    if($_GET["currency1"]=="usd"){
+                                                            echo "selected";
+                                                        }
+                                                    } 
+                                                ?>>US Dollar</option>
+                            <option value="cad" <?php
+                                                    if(isset($_GET["convert"])){
+                                                        if($_GET["currency1"]=="cad"){
+                                                            echo "selected";
+                                                        }
+                                                    } 
+                                                ?>>Canadian Dollar</option>
+                            <option value="eur" <?php
+                                                    if(isset($_GET["convert"])){
+                                                        if($_GET["currency1"]=="eur"){
+                                                            echo "selected";
+                                                        }
+                                                    } 
+                                                ?>>Euro</option>
                         </select>
-                    </p>
-                    <input class="convert" type="submit" value="convert" name="convert"/>
-        </div>    
 
-                    
-    </form>
+                        <br/>
+                        <label for="currency2">Currency:</label>
+                    <select name="currency2">
+                        <!-- Making selected item choosen one-->
+                        <option  value="currency" >Select a Currency</option>
+                        <option value="usd" <?php
+                                                if(isset($_GET["convert"])){
+                                                    if($_GET["currency2"]=="usd"){
+                                                        echo "selected";
+                                                    }
+                                                } 
+                                            ?> >US Dollar</option>
+                        <option value="cad" <?php
+                                                if(isset($_GET["convert"])){
+                                                    if($_GET["currency2"]=="cad"){
+                                                        echo "selected";
+                                                    }
+                                                } 
+                                            ?>>Canadian Dollar</option>
+                        <option value="eur" <?php
+                                                if(isset($_GET["convert"])){
+                                                    if($_GET["currency2"]=="eur"){
+                                                        echo "selected";
+                                                    }
+                                                } 
+                                            ?>>Euro</option>
+                    </select>
+            </div>
+            <div class="clear"></div>
+            <input class="convert" type="submit" value="convert" name="convert"/>
+        </form>
+    </div>
+    
 </body>
 </html>
