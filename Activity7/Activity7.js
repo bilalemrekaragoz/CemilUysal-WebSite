@@ -18,12 +18,13 @@ var addScore = function(){
 	if(nametxt.value == ""){
 		alert("You should enter the name!!!");
 	}
-	else if (scoretxt.value < 0 || scoretxt.value >100){
-		alert("You should enter valid score!!!");
-	}
-	else{
+	else if (scoretxt.value > 0 && scoretxt.value <100){
 		names[names.length] = nametxt.value;
 		scores[scores.length] = scoretxt.value;	
+	}
+	else{
+		alert("You should enter valid score!!!");
+		
 	}
 	nametxt.value = "";
 	scoretxt.value = "";
