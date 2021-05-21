@@ -1,0 +1,13 @@
+.container{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+button{
+    position: absolute;
+}
+#score{
+    margin-left: 100px;
+    margin-top: 0px;
+    font-size: 26px;
+}
