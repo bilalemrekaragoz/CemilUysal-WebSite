@@ -17,8 +17,8 @@ $(function(){
         return "Score: " + score;
     }
     function positionchanger(){
-        leftmargin = (Math.random()*850);
-        topmargin = Math.random()*450;
+        leftmargin = (Math.random()*800);
+        topmargin = Math.random()*455;
         $("#btn").css("marginTop", topmargin+"px");
         $("#btn").css("marginLeft", leftmargin+"px");
     }
