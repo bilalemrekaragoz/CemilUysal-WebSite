@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Books, Movies, Series home page</title>
+        <link rel="stylesheet" href="main.css"/>
+        <!--Bootstrap links for navigation bar -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+            crossorigin="anonymous"
+        />
+        
+    </head>
+    <!-- Creating home page-->
+    <body class="main">
+        <!-- Creating container box all of pages have this container is similar-->
+        <div class="container">
+           <nav class="navbar navbar-dark navbar-expand-sm w-100 rounded-pill px-3"> 
+                <a class="navbar-brand" href="index.html">BMS</a>
+                <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                   <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                   <ul class="navbar-nav">
+                       <li class="nav-item">
+                            <a href="timeline.html" class="nav-link"> Timeline</a>
+                       </li>
+                       <li class="nav-item">
+                            <a href="books.html" class="nav-link"> Books</a>
+                       </li>
+                       <li class="nav-item">
+                            <a href="movies.html" class="nav-link"> Movies</a>
+                       </li>
+                       <li class="nav-item">
+                            <a href="series.html" class="nav-link"> Series</a>
+                       </li>
+                       <li class="nav-item search">
+                            <form class="d-flex ">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                       </li>
+                       
+                   </ul>
+               </div>
+            </nav>
+            <section class=" text-white left-side mt-5"> 
+                <article>
+                    <header>
+                        <h2> Discover millions of TV series, movies and books! </h2>
+                        <h3> Share your comments about the TV series, movie and book you want!</h3>
+                    </header>
+                    <p> 
+                        Follow the profiles of the people whose comments you like and follow their views.
+
+                    </p>
+                    <br/>
+                    <p> 
+                        Choose whatever you want from millions of TV shows, movies, and books and
+                        leave comments for people to read or watch.
+                    </p>
+                </article>
+            </section>
+            <section class="right-side text-dark mt-5 ">
+                <article>
+                    <header>
+                        <h2> Make lists of movies, TV shows you've watched and books you've read. </h2>
+                        <h3> Add comments to movies, TV shows and books on your list.</h3>
+                    </header>
+                    <p class="text-danger"> 
+                        You cannot comment, follow people and make lists without being a member. 
+                        But you can see most popular comments.
+                    </p>
+                </article>
+            </section>
+            <div class="clearfix"></div>
+            <!-- Page Footer is same every page-->
+            <footer class="text-white mt-5 float-left">
+                &copy; - written by Cemil Uysal
+            </footer>
+
+        </div>
+        
+                        
+        
+        <!-- Bootstrap scripts for navigation bar button-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+            integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
