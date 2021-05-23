@@ -26,9 +26,9 @@ $(function(){
     $(".book").click(function(){
         var imageUrl = $(this).attr("title");
         
-        $(".slider-bar").slideUp(300, function(){
+        $(".slider-bar").fadeOut(500, function(){
 			$(".book-img").attr("src",imageUrl);
-			$(".slider-bar").slideDown(500);
+			$(".slider-bar").fadeIn(800);
 		});
     });
 
