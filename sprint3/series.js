@@ -1,6 +1,7 @@
 $(function(){
     
-    $(".series-footer").mouseover(function(){
+    $(".series").mouseover(function(){
+        var cardId = "";
         var cardId = "#"+$(this).attr("id");
         $(cardId + " #s5").click(function(){
             $(cardId + " .fa-star").css("color", "white");
@@ -25,7 +26,7 @@ $(function(){
             $( cardId+" #s1").css("color", "red");
             $( cardId+" #s2").css("color", "red");
         });
-        $(cardId + " #s4").click(function(){
+        $(cardId + " .series-footer #s4").click(function(){
             $(cardId + " .fa-star").css("color", "white");
             $(this).css("color","red");
             $( cardId+" #s1").css("color", "red");
@@ -38,17 +39,25 @@ $(function(){
         
     });
     var comments="";
-    $(".series-footer").mouseover(function(){
-        var cardId = "#"+$(this).attr("id");
-        $(cardId + " .fa-star").click(function(){
+    $(".series").mouseover(function(){
+        var cardId = "";
+        cardId = "#"+$(this).attr("id");
+        $(".comments").mouseover(function(){
+            
+            commentsId= "#"+$(this).attr("id");
+            $(".comments-button").click(function(){
+                
+                comments = $(cardId+ " .comments").val();
+                $(cardId+" " +commentsId).hide("fold",500);
+            });
+        });
+       
+        $(cardId + " .series-footer .fa-star").click(function(){
             $(cardId+ " .comments").val(comments);
             $(cardId+" .comments").show("slide",500);
             
         });
-        $(".comments-button").click(function(){
-            comments = $(cardId+ " .comments").val();
-            $(cardId+ " .comments").hide("fold",500);
-        });
+        
     });
     
     
