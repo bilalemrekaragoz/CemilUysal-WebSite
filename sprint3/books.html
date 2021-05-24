@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title> Books, Movies, Series home page</title>
+        <title> Books page</title>
         <link rel="stylesheet" href="main.css"/>
         <link rel="stylesheet" href="book.css"/>
         <!--Bootstrap links for navigation bar -->
@@ -14,6 +14,8 @@
             integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        
         
         
     </head>
@@ -41,7 +43,7 @@
                        </li>
                        <li class="nav-item search">
                             <form class="d-flex ">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <input class="form-control me-2 " id="tags"  type="search" placeholder="Search" aria-label="Search">
                                 <button class="btn btn-outline-success" type="submit">Search</button>
                             </form>
                        </li>
@@ -115,7 +117,10 @@
             crossorigin="anonymous"
         ></script>
         <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+        
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="timeline.js"></script>
+        <script src="main.js"></script>
         <script src="books.js"></script>
     </body>
 </html>
